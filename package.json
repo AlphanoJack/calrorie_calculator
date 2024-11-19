@@ -1,0 +1,34 @@
+{
+  "type": "module",
+  "name": "nordbird",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "keywords": [],
+  "author": "AlphanoJack",
+  "license": "MIT",
+  "description": "익스프레스 연습 과제",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.3",
+    "nunjucks": "^3.2.4",
+    "passport-google-oauth20": "^2.0.0",
+    "sequelize": "^6.37.5",
+    "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
